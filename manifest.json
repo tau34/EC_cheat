@@ -1,0 +1,21 @@
+{
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "wordWatchCheat.js"
+      ],
+      "matches": [
+        "https://englishcommunication.net/ec2023/2023.php"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "name": "EC Cheat",
+  "permissions": [
+    "activeTab"
+  ],
+  "version": "1.0"
+}
